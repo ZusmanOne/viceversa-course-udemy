@@ -6,8 +6,8 @@
 </head>
 <body>
     <h1>Vice Versa</h1>
-    <form>
-        <textarea rows="10" cols="60"></textarea>
+    <form action="{% url 'reverse' %}">
+        <textarea rows="10" cols="60" name="usertext" ></textarea>
         <br><br>
         <input type="submit" value="Reverse!">
         <h2>werty</h2>
